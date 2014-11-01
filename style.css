@@ -1,5 +1,10 @@
 body {
 	background: #f9e933;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+h1, h2, h3, h4 {
+	font-family: 'Ubuntu', sans-serif;
 }
 
 header, main, footer {
@@ -28,4 +33,28 @@ header nav {
 
 main {
 	background: white;
+}
+
+main {
+	background: white;
+	overflow: auto;
+}
+
+main .main_text {
+	float: left;
+	width: 570px;
+}
+
+main .main_image {
+	float: right;
+	width: 285px;
+}
+
+footer .contact {
+	float: left;
+	width: 570px;
+}
+footer .sitemap {
+	float: right;
+	width: 285px;
 }
